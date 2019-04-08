@@ -1,0 +1,61 @@
+canvas{
+  background-color: #2f3640;
+}
+
+h1{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 15pt;
+}
+
+h5{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+input{
+  width: 350px;
+  height: 40px;
+  font-size: 15pt;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#l-title{
+  text-align: left;
+  width: 250px;
+  height: auto;
+  word-wrap: break-word;
+}
+#text{
+  text-align: left;
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+#l-title{
+  margin-bottom: 5px;
+}
+
+.container{
+  width: 250px;
+  margin-right: 0;
+  position:absolute;
+  top: 0;
+  margin-top: 12px;
+}
+
+#one{
+  color: #f7b731;
+  font-size: 19pt;
+}
+#two{
+  color: #eb3b5a;
+  font-size: 14pt;
+}
+#three{
+  color: #fa8231;
+}

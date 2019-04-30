@@ -38,8 +38,8 @@ io.on('connection', function(socket) {
   socket.on('new player', function() {
     var num = Math.round(0xffffff * Math.random());
     players[socket.id] = {
-      x: 300,
-      y: 500,
+      x: Math.floor(Math.random() * 1600) + 1,
+      y: Math.floor(Math.random() * 1200) + 1,
       r: num >> 16,
       g: num >> 8 & 255,
       b: num & 255,
